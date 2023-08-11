@@ -1,0 +1,10 @@
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.SeriLog\obj\Debug\netcoreapp3.1\PaySpace.Logging.csproj.AssemblyReference.cache
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.SeriLog\obj\Debug\netcoreapp3.1\PaySpace.Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.SeriLog\obj\Debug\netcoreapp3.1\PaySpace.Logging.AssemblyInfoInputs.cache
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.SeriLog\obj\Debug\netcoreapp3.1\PaySpace.Logging.AssemblyInfo.cs
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.SeriLog\obj\Debug\netcoreapp3.1\PaySpace.Logging.csproj.CoreCompileInputs.cache
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.SeriLog\bin\Debug\netcoreapp3.1\PaySpace.Logging.deps.json
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.SeriLog\bin\Debug\netcoreapp3.1\PaySpace.Logging.dll
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.SeriLog\bin\Debug\netcoreapp3.1\PaySpace.Logging.pdb
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.SeriLog\obj\Debug\netcoreapp3.1\PaySpace.Logging.dll
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.SeriLog\obj\Debug\netcoreapp3.1\PaySpace.Logging.pdb

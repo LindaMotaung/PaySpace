@@ -1,0 +1,10 @@
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.DataLayer\bin\Debug\netcoreapp3.1\PaySpace.DataLayer.deps.json
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.DataLayer\bin\Debug\netcoreapp3.1\PaySpace.DataLayer.dll
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.DataLayer\bin\Debug\netcoreapp3.1\PaySpace.DataLayer.pdb
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.DataLayer\obj\Debug\netcoreapp3.1\PaySpace.DataLayer.csproj.AssemblyReference.cache
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.DataLayer\obj\Debug\netcoreapp3.1\PaySpace.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.DataLayer\obj\Debug\netcoreapp3.1\PaySpace.DataLayer.AssemblyInfoInputs.cache
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.DataLayer\obj\Debug\netcoreapp3.1\PaySpace.DataLayer.AssemblyInfo.cs
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.DataLayer\obj\Debug\netcoreapp3.1\PaySpace.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.DataLayer\obj\Debug\netcoreapp3.1\PaySpace.DataLayer.dll
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.DataLayer\obj\Debug\netcoreapp3.1\PaySpace.DataLayer.pdb

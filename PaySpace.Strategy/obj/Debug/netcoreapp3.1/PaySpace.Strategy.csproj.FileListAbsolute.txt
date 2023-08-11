@@ -1,0 +1,13 @@
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.Strategy\obj\Debug\netcoreapp3.1\PaySpace.Strategy.csproj.AssemblyReference.cache
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.Strategy\obj\Debug\netcoreapp3.1\PaySpace.Strategy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.Strategy\obj\Debug\netcoreapp3.1\PaySpace.Strategy.AssemblyInfoInputs.cache
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.Strategy\obj\Debug\netcoreapp3.1\PaySpace.Strategy.AssemblyInfo.cs
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.Strategy\obj\Debug\netcoreapp3.1\PaySpace.Strategy.csproj.CoreCompileInputs.cache
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.Strategy\bin\Debug\netcoreapp3.1\PaySpace.Strategy.deps.json
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.Strategy\bin\Debug\netcoreapp3.1\PaySpace.Strategy.dll
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.Strategy\bin\Debug\netcoreapp3.1\PaySpace.Strategy.pdb
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.Strategy\bin\Debug\netcoreapp3.1\PaySpace.Logging.dll
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.Strategy\bin\Debug\netcoreapp3.1\PaySpace.Logging.pdb
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.Strategy\obj\Debug\netcoreapp3.1\PaySpace.Strategy.csproj.CopyComplete
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.Strategy\obj\Debug\netcoreapp3.1\PaySpace.Strategy.dll
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.Strategy\obj\Debug\netcoreapp3.1\PaySpace.Strategy.pdb

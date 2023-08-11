@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oxNHzQPZGLsWwQeU8NJ8D4CeYFbhCX8sFL1TCWDfdgOcSE+we9veJvfyWA4qmUvnFaOegq92b0rgK9Df/Vs8OQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lmotaun\\source\\repos\\PaySpace\\PaySpace\\PaySpace\\PaySpace.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lmotaun\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
