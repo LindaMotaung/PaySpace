@@ -13,3 +13,5 @@ C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.BusinessLogic\bin\Debug
 C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.BusinessLogic\obj\Debug\netcoreapp3.1\PaySpace.BusinessLogic.csproj.CopyComplete
 C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.BusinessLogic\obj\Debug\netcoreapp3.1\PaySpace.BusinessLogic.dll
 C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.BusinessLogic\obj\Debug\netcoreapp3.1\PaySpace.BusinessLogic.pdb
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.BusinessLogic\bin\Debug\netcoreapp3.1\PaySpace.Core.dll
+C:\Users\lmotaun\source\repos\PaySpace\PaySpace\PaySpace.BusinessLogic\bin\Debug\netcoreapp3.1\PaySpace.Core.pdb

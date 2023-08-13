@@ -17,6 +17,7 @@ namespace PaySpace.BusinessLogic.KeyBO
         public int? NettPay { get; set; }
         public DateTime? CreatedOn { get; set; }
 
+        public TaxBO(){}
         /// <summary>
         /// Constructor to create a new instance.
         /// </summary>

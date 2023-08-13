@@ -1689,6 +1689,7 @@
       },
       "PaySpace.BusinessLogic/1.0.0": {
         "dependencies": {
+          "PaySpace.Core": "1.0.0",
           "PaySpace.DataLayer": "1.0.0"
         },
         "runtime": {
@@ -1696,6 +1697,14 @@
         },
         "compile": {
           "PaySpace.BusinessLogic.dll": {}
+        }
+      },
+      "PaySpace.Core/1.0.0": {
+        "runtime": {
+          "PaySpace.Core.dll": {}
+        },
+        "compile": {
+          "PaySpace.Core.dll": {}
         }
       },
       "PaySpace.DataLayer/1.0.0": {
@@ -4334,6 +4343,11 @@
       "hashPath": "system.threading.threadpool.4.3.0.nupkg.sha512"
     },
     "PaySpace.BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaySpace.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PaySpace.DataLayer\PaySpace.DataLayer.csproj" />
+    <ProjectReference Include="..\PaySpace.Persistence\PaySpace.Persistence.csproj" />
     <ProjectReference Include="..\PaySpace.Strategy\PaySpace.Strategy.csproj" />
   </ItemGroup>
 

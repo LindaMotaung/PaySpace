@@ -12,9 +12,11 @@ namespace PaySpace.Persistence.KeyBO
     {
         public void Insert(TaxBO taxBO)
         {
-            using var dbContext = new PaySpaceContext();
+            //using var dbContext = new PaySpaceContext();
+            using var dbContext = new PaySpaceContextExtensions();
             var newTaxCalculation = new TaxCalculator()
             {
+                Id = taxBO.Id,
                 PostalCodeId = taxBO.PostalCodeId,
                 Income = taxBO.Income,
                 Tax = taxBO.Tax,
