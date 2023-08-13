@@ -2025,6 +2025,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "PaySpace.Core": "1.0.0",
           "PaySpace.DataLayer": "1.0.0"
         },
         "compile": {
@@ -2032,6 +2033,16 @@
         },
         "runtime": {
           "bin/placeholder/PaySpace.BusinessLogic.dll": {}
+        }
+      },
+      "PaySpace.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/PaySpace.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaySpace.Core.dll": {}
         }
       },
       "PaySpace.DataLayer/1.0.0": {
@@ -6636,6 +6647,11 @@
       "type": "project",
       "path": "../PaySpace.BusinessLogic/PaySpace.BusinessLogic.csproj",
       "msbuildProject": "../PaySpace.BusinessLogic/PaySpace.BusinessLogic.csproj"
+    },
+    "PaySpace.Core/1.0.0": {
+      "type": "project",
+      "path": "../PaySpace.Core/PaySpace.Core.csproj",
+      "msbuildProject": "../PaySpace.Core/PaySpace.Core.csproj"
     },
     "PaySpace.DataLayer/1.0.0": {
       "type": "project",

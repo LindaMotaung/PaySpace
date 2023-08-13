@@ -1414,6 +1414,16 @@
           "lib/netstandard1.3/System.Threading.ThreadPool.dll": {}
         }
       },
+      "PaySpace.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/PaySpace.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaySpace.Core.dll": {}
+        }
+      },
       "PaySpace.DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5010,6 +5020,11 @@
         "system.threading.threadpool.nuspec"
       ]
     },
+    "PaySpace.Core/1.0.0": {
+      "type": "project",
+      "path": "../PaySpace.Core/PaySpace.Core.csproj",
+      "msbuildProject": "../PaySpace.Core/PaySpace.Core.csproj"
+    },
     "PaySpace.DataLayer/1.0.0": {
       "type": "project",
       "path": "../PaySpace.DataLayer/PaySpace.DataLayer.csproj",
@@ -5023,6 +5038,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "PaySpace.Core >= 1.0.0",
       "PaySpace.DataLayer >= 1.0.0"
     ]
   },
@@ -5062,6 +5078,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Users\\lmotaun\\source\\repos\\PaySpace\\PaySpace\\PaySpace.Core\\PaySpace.Core.csproj": {
+              "projectPath": "C:\\Users\\lmotaun\\source\\repos\\PaySpace\\PaySpace\\PaySpace.Core\\PaySpace.Core.csproj"
+            },
             "C:\\Users\\lmotaun\\source\\repos\\PaySpace\\PaySpace\\PaySpace.DataLayer\\PaySpace.DataLayer.csproj": {
               "projectPath": "C:\\Users\\lmotaun\\source\\repos\\PaySpace\\PaySpace\\PaySpace.DataLayer\\PaySpace.DataLayer.csproj"
             }

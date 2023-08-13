@@ -16,7 +16,7 @@ namespace PaySpace.Api.Controllers
     [Route("api/codes")]
     public class TaxController : BaseApiController
     {
-        private static TaxStrategy _taxStrategy => TaxStrategy.Instance;
+        private static TaxFacade _taxStrategy => TaxFacade.Instance;
 
         /// <summary>
         /// Submits a tax calculation based on the TO (Transfer Object)

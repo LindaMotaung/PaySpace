@@ -8,13 +8,13 @@ using PaySpace.BusinessLogic.TransferObjects;
 
 namespace PaySpace.Api.Logic.Strategies
 {
-    public class TaxStrategy
+    public class TaxFacade
     {
-        private static TaxStrategy instance;
-        public static TaxStrategy Instance => instance ??= new TaxStrategy();
+        private static TaxFacade instance;
+        public static TaxFacade Instance => instance ??= new TaxFacade();
         private static TaxMapper taxMapper;
 
-        public TaxStrategy()
+        public TaxFacade()
         {
             taxMapper = new TaxMapper();
         }

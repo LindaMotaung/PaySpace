@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PaySpace.Core\PaySpace.Core.csproj" />
     <ProjectReference Include="..\PaySpace.DataLayer\PaySpace.DataLayer.csproj" />
   </ItemGroup>
 
