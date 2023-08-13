@@ -3,8 +3,8 @@ using PaySpace.DataLayer.Interfaces.Entities;
 
 namespace PaySpace.DataLayer.Interfaces.Repositories
 {
-    public interface IPostalCodeRepository : IRepositoryWithCreate<IPostalCode>
+    public interface ITaxCalculatorRepository : IRepositoryWithCreate<ITaxCalculator>
     {
-        IPostalCode GetPostalCode(int id);
+        ITaxCalculator GetTaxCalculator(int id);
     }
 }

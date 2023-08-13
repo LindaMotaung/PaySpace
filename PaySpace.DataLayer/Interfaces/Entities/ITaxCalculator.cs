@@ -1,8 +1,8 @@
 ﻿namespace PaySpace.DataLayer.Interfaces.Entities
 {
-    public interface IPostalCode
+    public interface ITaxCalculator
     {
         int Id { get; set; }
-        string Code { get; set; }
+        int Income { get; set; }
     }
 }

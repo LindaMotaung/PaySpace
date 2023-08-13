@@ -16,10 +16,10 @@ namespace PaySpace.DataLayer.Core
             this._context = context;
             this._logger = logger;
 
-            PostalCodeRepository = new PostalCodeRepository(_context);
+            TaxCalculatorRepository = new TaxCalculatorRepository(_context);
         }
 
-        public IPostalCodeRepository PostalCodeRepository { get; }
+        public ITaxCalculatorRepository TaxCalculatorRepository { get; }
 
         public int Complete()
         {

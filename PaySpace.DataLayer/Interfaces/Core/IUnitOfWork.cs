@@ -5,6 +5,6 @@ namespace PaySpace.DataLayer.Interfaces.Core
 {
     public interface IUnitOfWork : IDisposable
     {
-        IPostalCodeRepository PostalCodeRepository { get; }
+        ITaxCalculatorRepository TaxCalculatorRepository { get; }
     }
 }

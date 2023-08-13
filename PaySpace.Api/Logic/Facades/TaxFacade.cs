@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using PaySpace.Api.Logic.Mappers;
 using PaySpace.BusinessLogic.KeyBO;
 using PaySpace.BusinessLogic.TransferObjects;
@@ -33,18 +30,12 @@ namespace PaySpace.Api.Logic.Strategies
 
             SaveTax(taxBO);
 
-            return taxBO.id;
-            //throw new NotImplementedException();
+            return taxBO.Id;
         }
 
         private static void SaveTax(TaxBO tax)
         {
-            if (tax == null)
-            {
-                return;
-            }
-
-            tax.Save();
+            tax?.Save();
         }
     }
 }

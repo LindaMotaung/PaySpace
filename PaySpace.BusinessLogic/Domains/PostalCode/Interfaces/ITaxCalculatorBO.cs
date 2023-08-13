@@ -2,8 +2,8 @@
 
 namespace PaySpace.BusinessLogic.Domains.PostalCode.Interfaces
 {
-    public interface IPostalCodeBO
+    public interface ITaxCalculatorBO
     {
-        IPostalCode GetPostalCode(int id);
+        ITaxCalculator GetTaxCalculation(int id);
     }
 }
