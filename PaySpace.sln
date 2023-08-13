@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpace", "PaySpace\PaySpace.csproj", "{9383CE2E-58F0-4C76-AE13-C293BB430188}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpace", "PaySpace\PaySpace.csproj", "{9383CE2E-58F0-4C76-AE13-C293BB430188}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpace.Tests", "PaySpace.Tests\PaySpace.Tests.csproj", "{B602D1CB-CD2E-49B7-AB92-186F061A9B53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpace.Tests", "PaySpace.Tests\PaySpace.Tests.csproj", "{B602D1CB-CD2E-49B7-AB92-186F061A9B53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpace.Api", "PaySpace.Api\PaySpace.Api.csproj", "{16449566-DFE9-45D7-80C4-D5EB1293946A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpace.Api", "PaySpace.Api\PaySpace.Api.csproj", "{16449566-DFE9-45D7-80C4-D5EB1293946A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpace.DataLayer", "PaySpace.DataLayer\PaySpace.DataLayer.csproj", "{F8D79BEC-54AE-4511-A20C-4686216FF7E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpace.DataLayer", "PaySpace.DataLayer\PaySpace.DataLayer.csproj", "{F8D79BEC-54AE-4511-A20C-4686216FF7E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpace.Strategy", "PaySpace.Strategy\PaySpace.Strategy.csproj", "{FA17511D-A895-4166-ABD8-508ED5B6CB99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpace.Strategy", "PaySpace.Strategy\PaySpace.Strategy.csproj", "{FA17511D-A895-4166-ABD8-508ED5B6CB99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpace.Logging", "PaySpace.SeriLog\PaySpace.Logging.csproj", "{D8D899FD-D6C5-455F-9042-DC6287643D9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpace.Logging", "PaySpace.SeriLog\PaySpace.Logging.csproj", "{D8D899FD-D6C5-455F-9042-DC6287643D9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpace.BusinessLogic", "PaySpace.BusinessLogic\PaySpace.BusinessLogic.csproj", "{D8211236-3B88-454A-91C8-2797AB5F7D96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpace.BusinessLogic", "PaySpace.BusinessLogic\PaySpace.BusinessLogic.csproj", "{D8211236-3B88-454A-91C8-2797AB5F7D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpace.Persistence", "PaySpace.Persistence\PaySpace.Persistence.csproj", "{0C6A34EC-9D4B-4B5E-8F89-EE30A3DA438D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpace.Core", "PaySpace.Core\PaySpace.Core.csproj", "{D28B7ECB-4A9F-4C30-8107-220E594046FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{D8211236-3B88-454A-91C8-2797AB5F7D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8211236-3B88-454A-91C8-2797AB5F7D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8211236-3B88-454A-91C8-2797AB5F7D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6A34EC-9D4B-4B5E-8F89-EE30A3DA438D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6A34EC-9D4B-4B5E-8F89-EE30A3DA438D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6A34EC-9D4B-4B5E-8F89-EE30A3DA438D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6A34EC-9D4B-4B5E-8F89-EE30A3DA438D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D28B7ECB-4A9F-4C30-8107-220E594046FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28B7ECB-4A9F-4C30-8107-220E594046FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28B7ECB-4A9F-4C30-8107-220E594046FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28B7ECB-4A9F-4C30-8107-220E594046FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

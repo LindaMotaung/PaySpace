@@ -4,9 +4,9 @@ namespace PaySpace.Strategy.Context
 {
     public class TaxCalculatorContext
     {
-        private readonly TaxCalculatorStrategy _taxCalculatorStrategy;
+        private  TaxCalculatorStrategy _taxCalculatorStrategy;
 
-        public TaxCalculatorContext(TaxCalculatorStrategy taxCalculatorStrategy)
+        public void TaxCalculator(TaxCalculatorStrategy taxCalculatorStrategy)
         {
             this._taxCalculatorStrategy = taxCalculatorStrategy;
         }

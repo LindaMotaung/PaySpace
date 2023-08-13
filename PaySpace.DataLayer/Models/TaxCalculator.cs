@@ -12,6 +12,7 @@ namespace PaySpace.DataLayer.Entities
         public int Income { get; set; }
         public int? Tax { get; set; }
         public int? NettPay { get; set; }
+        public DateTime? CreatedOn { get; set; }
 
         public virtual PostalCode PostalCode { get; set; }
     }

@@ -2,11 +2,10 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
-using PaySpace.DataLayer.Interfaces.Entities;
 
 namespace PaySpace.DataLayer.Entities
 {
-    public partial class PostalCode : IPostalCode
+    public partial class PostalCode
     {
         public PostalCode()
         {

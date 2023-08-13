@@ -34,6 +34,17 @@ namespace PaySpace.Api.Logic.Strategies
             SaveTax(taxBO);
 
             return taxBO.id;
+            //throw new NotImplementedException();
+        }
+
+        private static void SaveTax(TaxBO tax)
+        {
+            if (tax == null)
+            {
+                return;
+            }
+
+            tax.Save();
         }
     }
 }
