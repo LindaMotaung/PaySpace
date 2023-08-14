@@ -4,12 +4,18 @@
     ViewData["Title"] = "Tax Calculator";
 }
 
-<div>
-    <label for="txtPostalCode">Postal Code:</label>
-    <input type="text" id="txtPostalCode" name="txtPostalCode" />
+<form method="post" asp-page-handler="MapPostalCodes">
+    <div>
+        <label for="txtPostalCode">Postal Code:</label>
+        <input asp-for="PostalCode" type="text" id="txtPostalCode" name="PostalCode" />
 
-    <label for="txtAnnualIncome">Annual Income:</label>
-    <input type="text" id="txtAnnualIncome" name="txtAnnualIncome" />
+        <label for="txtAnnualIncome">Annual Income:</label>
+        <input asp-for="Income" type="text" id="txtAnnualIncome" name="Income" />
 
-    <button type="submit">Calculate</button>
-</div>
+        <input type="hidden" name="PostalCode" value="@Model.PostalCode" />
+
+        <button type="submit">Calculate</button>
+    </div>
+</form>
+   
+
