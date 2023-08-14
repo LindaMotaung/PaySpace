@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Web.Http.Results;
+﻿using System.Web.Http.Results;
 using Microsoft.AspNetCore.Mvc;
 using PaySpace.Api.Common;
 using PaySpace.Api.Logic.Strategies;
