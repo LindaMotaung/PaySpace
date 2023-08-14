@@ -5,11 +5,18 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using PaySpace.Api.Controllers;
+using PaySpace.Strategy.ConcreteStrategy;
+using PaySpace.Strategy.Context;
 
 namespace PaySpace.Pages
 {
     public class IndexModel : PageModel
     {
+        private readonly TaxController _taxController;
+        private TaxCalculatorContext _context;
+        private int _nettPay;
+
         [BindProperty]
         public int Income { get; set; }
 
@@ -17,6 +24,11 @@ namespace PaySpace.Pages
         public string PostalCode { get; set; }
 
         public int PostalCodeId { get; set; }
+
+        public IndexModel()
+        {
+             _taxController = new TaxController();
+        }
 
         public void OnGet()
         {
@@ -58,9 +70,34 @@ namespace PaySpace.Pages
             }
 
             MapPostalCodes(PostalCode);
-            // This method will be executed when the form is submitted using POST.
 
-            // Do something with the entered data (e.g., save to a database or process it).
+            // Call the different context strategies depending on income range then save to the database
+            switch (this.PostalCodeId)
+            {
+                case 1:
+                    _context.TaxCalculator(new ProgressiveTaxCalculator());
+                    _nettPay = _context.ContextInterface(this.Income);
+                    //_taxController.CalculateTax();
+                    break;
+
+                case 2:
+                    _context.TaxCalculator(new FlatValueTaxCalculator());
+                    _nettPay = _context.ContextInterface(this.Income);
+                    //_taxController.CalculateTax();
+                    break;
+
+                case 3:
+                    _context.TaxCalculator(new FlatRateTaxCalculator());
+                    _nettPay = _context.ContextInterface(this.Income);
+                    //_taxController.CalculateTax();
+                    break;
+
+                case 4:
+                    _context.TaxCalculator(new ProgressiveTaxCalculator());
+                    _nettPay = _context.ContextInterface(this.Income);
+                    //_taxController.CalculateTax();
+                    break;
+            }
 
             return Page(); // Return the same page after form submission.
         }

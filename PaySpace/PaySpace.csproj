@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PaySpace.Api\PaySpace.Api.csproj" />
+    <ProjectReference Include="..\PaySpace.Strategy\PaySpace.Strategy.csproj" />
   </ItemGroup>
 
 </Project>

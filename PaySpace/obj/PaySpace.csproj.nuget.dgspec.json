@@ -539,6 +539,9 @@
             "projectReferences": {
               "C:\\Users\\lmotaun\\source\\repos\\PaySpace\\PaySpace\\PaySpace.Api\\PaySpace.Api.csproj": {
                 "projectPath": "C:\\Users\\lmotaun\\source\\repos\\PaySpace\\PaySpace\\PaySpace.Api\\PaySpace.Api.csproj"
+              },
+              "C:\\Users\\lmotaun\\source\\repos\\PaySpace\\PaySpace\\PaySpace.Strategy\\PaySpace.Strategy.csproj": {
+                "projectPath": "C:\\Users\\lmotaun\\source\\repos\\PaySpace\\PaySpace\\PaySpace.Strategy\\PaySpace.Strategy.csproj"
               }
             }
           }

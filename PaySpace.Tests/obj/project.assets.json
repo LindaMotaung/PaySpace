@@ -3040,7 +3040,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "PaySpace.Api": "1.0.0"
+          "PaySpace.Api": "1.0.0",
+          "PaySpace.Strategy": "1.0.0"
         },
         "compile": {
           "bin/placeholder/PaySpace.dll": {}

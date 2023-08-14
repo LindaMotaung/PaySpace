@@ -37,9 +37,11 @@ namespace PaySpace.Tests.UI
         public void OnPost_ValidModelState_ReturnsPageResult()
         {
             // Arrange
-            var model = new IndexModel();
-            model.PostalCode = "7441";
-            model.Income = 50000;
+            var model = new IndexModel
+            {
+                PostalCode = "7441",
+                Income = 50000
+            };
 
             // Act
             var result = model.OnPost();
